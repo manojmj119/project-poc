@@ -1,5 +1,5 @@
 public class Myclass {
-
+//Program for finding maximum element from an array
 	public static int findMax(int arr[]) {
 		int max=arr[0];
 		for(int i=1;i<arr.length;i++) {
