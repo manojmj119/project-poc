@@ -1,6 +1,9 @@
 pipeline{
-    agent 'assessment'
-    stages{
+   agent {
+    node {
+      label 'assessment_node'
+    }
+  }
     
       stage('Test'){
           steps{
