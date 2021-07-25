@@ -1,5 +1,5 @@
 pipeline{
-    agent assessment
+    agent 'assessment'
     stages{
     
       stage('Test'){
